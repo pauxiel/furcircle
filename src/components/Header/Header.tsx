@@ -3,6 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Heart } from 'lucide-react';
+import Image from 'next/image';
 import data from "../../../data/data";
 import Navigation from "../Navigation/Navigation";
 
@@ -32,10 +33,12 @@ function Header() {
                 whileHover={{ scale: 1.1 }}
               >
                 {sitelogo ? (
-                  <img 
+                  <Image 
                     src={sitelogo} 
                     alt={sitename} 
-                    className="h-12 w-12 object-contain rounded-lg"
+                    width={48}
+                    height={48}
+                    className="object-contain rounded-lg"
                   />
                 ) : (
                   <Heart className="h-8 w-8 text-pink-500" />

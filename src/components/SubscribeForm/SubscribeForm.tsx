@@ -78,7 +78,7 @@ function SubscribeForm() {
                     animate={{ opacity: 1, y: 0 }}
                     className="mt-4 text-green-600 font-medium"
                   >
-                    Thank you! You'll be the first to know when we launch.
+                    Thank you! You&apos;ll be the first to know when we launch.
                   </motion.div>
                 )}
               </div>
