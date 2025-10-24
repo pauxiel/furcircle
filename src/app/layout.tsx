@@ -33,7 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={ `${inter.className} bg-gray-200	min-h-screen dark:bg-[#0d1117] `}
+      <body className={ `${inter.className} bg-white min-h-screen dark:bg-gray-900 `}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true}>          
           <main className='main'>{children}</main>

@@ -36,7 +36,7 @@ function SubscribeForm() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-slate-800 dark:text-slate-100 font-medium text-lg leading-6 mb-4"
+                  className="block text-pink-600 dark:text-pink-400 font-medium text-lg leading-6 mb-4"
                 >
                   {newsletterheading}
                 </label>
@@ -50,13 +50,13 @@ function SubscribeForm() {
                     placeholder="Enter your email address"
                     autoComplete="email"
                     required
-                    className="flex-1 px-4 py-3 text-lg border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none placeholder:text-gray-500"
+                    className="flex-1 px-4 py-3 text-lg border border-pink-300 dark:border-pink-600 rounded-xl focus:ring-2 focus:ring-pink-500 focus:border-transparent outline-none placeholder:text-gray-500 bg-white dark:bg-gray-800"
                   />
                   <motion.button 
                     type="submit"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="bg-gradient-to-r from-pink-500 to-violet-500 text-white px-6 py-3 rounded-xl font-semibold text-lg hover:from-pink-600 hover:to-violet-600 transition-all flex items-center justify-center gap-2 min-w-[140px]"
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    className="bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-xl font-semibold text-lg transition-colors flex items-center justify-center gap-2 min-w-[140px]"
                   >
                     {isSubmitted ? (
                       <>

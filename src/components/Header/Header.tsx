@@ -43,11 +43,11 @@ function Header() {
                 ) : (
                   <Heart className="h-8 w-8 text-pink-500" />
                 )}
-                <h1 className="text-3xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold">
+                <h1 className="text-3xl lg:text-4xl text-pink-600 dark:text-pink-400 font-bold">
                   {sitename}
                 </h1>
               </motion.div>
-              <p className="text-xl font-medium m-2 text-slate-800 dark:text-slate-100">
+              <p className="text-2xl md:text-3xl font-medium m-2 text-gray-700 dark:text-gray-300">
                 {sitetagline}
               </p>
             </div>
